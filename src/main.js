@@ -19,7 +19,7 @@ export default class Main extends React.Component {
         return (
             <>
                 <Navbar />
-                <Route path="/welcome" render={() => (
+                <Route path="/" render={() => (
                     <div>
                         <Welcome title="Welcome to Dashboard" />
                     </div>
@@ -28,7 +28,7 @@ export default class Main extends React.Component {
 
                 <Route path="/Users" render={() => (
                     <div>
-                        <Users title="Welcome to Dashboard" />
+                        <Users />
                     </div>
                 )
                 } />
